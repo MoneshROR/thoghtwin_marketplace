@@ -44,7 +44,7 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
       {!props.collectionMintFilter && (
         <Banner
           src="https://raw.githubusercontent.com/MoneshROR/thoghtwin_marketplace/master/logo1.png"
-          headingText="The amazing world of Thoughtwin."
+          headingText="The amazing world of Thoughtwin Markateplace."
           subHeadingText="Buy exclusive Thoughtwin NFTs."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
