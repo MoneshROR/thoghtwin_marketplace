@@ -113,7 +113,11 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <img
+        src={
+          'https://raw.githubusercontent.com/MoneshROR/thoghtwin_marketplace/master/logo1.png'
+        }
+      />
     </Link>
   );
 };
